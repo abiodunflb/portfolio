@@ -131,12 +131,14 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
-    h1.sm-heading span,
-    h2.sm-heading span,
-    h3.sm-heading span {
-      color: rgba(251, 255, 15, 0.5);
-      font-size: 1rem;
-      font-weight: 400; }
+  h1.alert,
+  h2.alert,
+  h3.alert {
+    color: rgba(251, 255, 15, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0; }
 
 a {
   color: #fff;
