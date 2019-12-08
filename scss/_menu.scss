@@ -12,7 +12,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: change-color($primary-color);
     @include easeOut;
   }
 
@@ -106,7 +106,7 @@
 
   .nav-link {
     position: relative;
-    color: #fff;
+    color: change-color($primary-color);
     font-size: 2em;
     padding: 1em 0;
     display: inline-block;
