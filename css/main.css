@@ -134,11 +134,13 @@ h3 {
   h1.alert,
   h2.alert,
   h3.alert {
-    color: rgba(251, 255, 15, 0.5);
+    color: rgb(255, 15, 15);
     font-size: 1rem;
     font-weight: 400;
     position: absolute;
-    bottom: 0; }
+    bottom: 50px; 
+    text-transform: capitalize;
+  }
 
 a {
   color: #fff;
@@ -169,7 +171,8 @@ main {
 
 .about-info {
   display: grid;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px; }
 
@@ -292,7 +295,11 @@ main {
       height: 150px;
       width: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     grid-template-columns: 1fr;
     justify-items: center; }
   .projects {
